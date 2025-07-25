@@ -77,7 +77,6 @@ export function SignupForm({
       setIsLoading(false);
     }
   }
-
   const signUp = async () => {
     await authClient.signIn.social({
       provider: "google",
