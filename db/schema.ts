@@ -5,6 +5,7 @@ import {
   boolean,
   integer,
 } from "drizzle-orm/pg-core";
+import { Schema } from "zod/v3";
 
 export const user = pgTable("user", {
   id: text("id").primaryKey(),
@@ -65,3 +66,4 @@ export const verification = pgTable("verification", {
     () => /* @__PURE__ */ new Date(),
   ),
 });
+export const schema =  {user,session,account,verification} 
