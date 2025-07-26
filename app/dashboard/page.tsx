@@ -5,6 +5,7 @@ export default function Page(){
         <div>
             <h1>LogOut</h1>
             <LogOut />
+            
         </div>
     )
 }
