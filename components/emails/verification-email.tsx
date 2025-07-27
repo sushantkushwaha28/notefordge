@@ -15,7 +15,6 @@ interface VerificationEmailProps {
   userName: string;
   verificationUrl: string;
 }
-
 const VerificationEmail = ({
   userName,
   verificationUrl,
