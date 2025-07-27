@@ -11,7 +11,6 @@ export default async function Page() {
       <h1>Notebooks</h1>
 
       <CreateNotebookButton />
-
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {notebooks.success &&
           notebooks?.notebooks?.map((notebook) => (
